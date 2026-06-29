@@ -1,0 +1,198 @@
+body {
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+.auth-box {
+    max-width: 430px;
+    margin: 70px auto;
+}
+
+.main-card {
+    border: 0;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.task-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
+    height: 260px;
+    overflow: hidden;
+}
+
+.task-card-body {
+    height: 190px;
+    padding: 24px;
+}
+
+.task-card-title {
+    display: -webkit-box;
+    font-size: 1.18rem;
+    font-weight: 700;
+    line-height: 1.35;
+    min-height: 34px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.task-status-pill {
+    border-radius: 6px;
+    flex-shrink: 0;
+    font-size: 0.88rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 9px 12px;
+}
+
+.task-status-pill--pending {
+    background: #eef2f7;
+    color: #475569;
+}
+
+.task-status-pill--progress {
+    background: #ffedd5;
+    color: #c2410c;
+}
+
+.task-status-pill--review {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.task-status-pill--completed {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.task-status-pill--cancelled {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.task-date {
+    align-items: center;
+    color: #64748b;
+    display: flex;
+    font-size: 0.98rem;
+    gap: 10px;
+}
+
+.task-date i {
+    color: #64748b;
+    font-size: 1rem;
+}
+
+.task-card-content {
+    align-items: flex-start;
+    display: flex;
+    gap: 14px;
+}
+
+.task-card-description {
+    color: #1f2937;
+    display: -webkit-box;
+    flex: 1;
+    font-size: 0.98rem;
+    line-height: 1.5;
+    min-height: 48px;
+    min-width: 0;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.task-card-thumb {
+    border-radius: 8px;
+    flex-shrink: 0;
+    height: 58px;
+    object-fit: cover;
+    width: 74px;
+}
+
+.task-card-footer {
+    align-items: center;
+    background: #fbfdff;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+    gap: 16px;
+    height: 70px;
+    justify-content: space-between;
+    padding: 14px 22px;
+}
+
+.task-owner {
+    align-items: center;
+    color: #1f2937;
+    display: inline-flex;
+    font-size: 0.94rem;
+    gap: 10px;
+    min-width: 0;
+}
+
+.task-owner span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.task-owner-avatar {
+    align-items: center;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 50%;
+    color: #94a3b8;
+    display: inline-flex;
+    flex-shrink: 0;
+    height: 32px;
+    justify-content: center;
+    width: 32px;
+}
+
+.task-actions {
+    align-items: center;
+    display: inline-flex;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.task-action-button {
+    align-items: center;
+    border-radius: 6px;
+    display: inline-flex;
+    font-weight: 600;
+    gap: 6px;
+    justify-content: center;
+    min-width: 74px;
+}
+
+.task-action-edit {
+    background: #ffffff;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+}
+
+.task-action-edit:hover {
+    background: #eff6ff;
+    border-color: #1d4ed8;
+    color: #1d4ed8;
+}
+
+.task-action-delete {
+    background: #ffffff;
+    border: 1px solid #ef4444;
+    color: #dc2626;
+}
+
+.task-action-delete:hover {
+    background: #fef2f2;
+    border-color: #dc2626;
+    color: #b91c1c;
+}
+
+a {
+    text-decoration: none;
+}
