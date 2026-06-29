@@ -98,3 +98,4 @@ This class handles uploading task images. It checks the image type and size befo
 - Optional task image upload
 - SQL file with tables and sample accounts
 # web2
+# web2
